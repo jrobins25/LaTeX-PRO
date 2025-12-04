@@ -1,8 +1,34 @@
-/*
+.preamble_textArea > * > textarea {
+	width: 45em;
+	min-height: 10em;
+}
+.settings_textfield >*> input{
+    width: 30em;
+}
+.latexPro-inline-tag-decoration {
+    font-style: italic;
+	color: #5A5CAD;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.latexPro-inline-tag-decoration::before{
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(0,0,0,0.08);
+	border-radius: 3px;
+	pointer-events: none;
+	z-index: 1;
+}
 
-If your plugin does not need CSS, delete this file.
-
-*/
+.latexPro-inline-tag-marker{
+	color: #5A5CAD;
+}
+.latexPro-inline-command{
+	color: black;
+}
+.latexPro-inline-brace{
+	color: black;
+}
