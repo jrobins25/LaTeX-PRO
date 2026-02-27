@@ -1,5 +1,5 @@
 # Latex Pro
-This plugin is my first project in typescript. The plugin renders latex inside markdown codeblocks with label `pdfPro` using your own local installation of latex. The focus of this plugin is scientific purposes (merging the Zettelkasten system with latex).
+This plugin is my first project in typescript. The plugin renders latex inside markdown codeblocks with label `pdfPro` using your own local installation of latex. The focus of this plugin is scientific purposes (merging the Zettelkasten system with latex). This also offers a way to save latex code in the vault (on your device) instead of a cloud service.
 
 ## Suggested use case
 Latex pro is intended to be a way to save written texts in latex, possibly in the compartimentalized way zettelkasten demands. Currently, latexpro does not intend to be a replacement for any editor like overleaf and does not provide easy typesetting. Latex pro is intended for those who are serious about latex and want to give zettelkasten a shot. An intended work flow could be:
@@ -18,6 +18,7 @@ The output pdf currently is a standalone document with fixed width equal to the 
 - user can input any preamble
 	- it is recommended the user creates their own package containing all user defined macros, but it's not required. This is because there's only four lines in the preamble setting (obsidian limitation)
  - bibliography is possible and is made at the bottom
+
 
 # Future implementations
 - `\label{}`'s work as expected via some work around (e.g. obsidians makes wikilinks to labels after rendering)
